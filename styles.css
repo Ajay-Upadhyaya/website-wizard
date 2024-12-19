@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Concert One", sans-serif;
+   max-width: 100%;
+}
+.concert-one-regular {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .silkscreen-regular {
+    font-family: "Silkscreen", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .silkscreen-bold {
+    font-family: "Silkscreen", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .bungee-spice-regular {
+    font-family: "Bungee Spice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  
+.head{
+    margin: 10px 0;
+    padding: 15px;
+    display: flex;
+    background-color: beige;
+    height: 25px;
+}
+    
+    
+.head img{
+    width: 30px;
+    height:30px;
+
+}
+ header{
+    padding-left:200px;
+    width: 70%;
+}
+
+header ul{
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header li{
+    list-style: none;
+   
+}
+
+ header ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(112, 82, 82);
+
+}
+
+ header ul li a:hover{
+    color: orange;
+    
+}
+
+#Request{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 8px;
+    width: 150px;
+    height: max-content;
+    background-color: rgb(233, 243, 197);
+    font-family: "Concert One", sans-serif;
+    margin-top: -8px;
+  
+}
+
+#Request:hover{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    max-height: 500px;
+    margin: 10px;
+    padding: 20px;
+    overflow: hidden;
+    height: 600px;
+
+
+}
+
+.words{
+    width: 40%;
+    max-height: 450px;
+    
+    
+}
+
+.pic{
+    max-width:500px;
+    height: 390px;
+    margin-left: 80px;
+   
+}
+.pic img{
+    border-radius: 10px;
+
+    
+
+}
+.pic img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#wordsbtn{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
+    height: max-content;
+    background-color: rgb(6, 6, 4);
+    font-family: "Concert One", sans-serif;
+    color: white;
+    margin-top: 15px;
+   
+
+}
+
+#wordsbtn:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.words h1{
+    
+    font-size: 60px;
+    
+}
+.words p{
+    font-size: larger;
+   
+    
+}
+.icons{
+    margin:0px 20px;
+    background-color: rgba(224, 225, 214, 0.519);
+    padding: 15px;
+    
+}
+
+.icons ul{
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+
+.icons ul li{
+    list-style: none;
+    
+}
+
+.icons ul li a{
+    font-size: 40px;
+    padding-left: 60px;
+    color: crimson;
+    
+
+}
+
+.icons ul li a:hover{
+    color: rgb(77, 177, 154);
+    transition: 0.2s;
+}
+.services{
+    margin:10px ;
+    padding: 15px;
+    display: flex;
+    height: 60px;
+}
+.services h2{
+    padding: 5px;
+    background-color: greenyellow;
+    width: 8%;
+    color: rgb(9, 9, 9);
+    border-radius: 10px;
+    padding: 12px;
+    
+
+}
+.services p{
+    background-color: azure;
+    margin-left: 30px;
+    width: 90%;
+   
+    
+}
+.flex-box{
+    
+    display: flex;
+    height: 700px;
+    margin-left: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+}
+.flex-box div{
+    width: 30%;
+    flex-wrap: wrap;
+    background-color: rgb(82, 239, 231);
+    color: white;
+    height: 250px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    border-bottom: 5px solid;
+    position: ;
+}
+
+.flex-box div:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.flex-box .box2, .flex-box .box3{
+    background-color: black;
+}
+.flex-box .box1 h2 , .flex-box .box4 h2{
+    background-color: lightgreen;
+    width: 180px;
+    padding: 15px;
+    border-radius: 8px;
+}
+    .flex-box  .box2 h2, .flex-box  .box3 h2{
+        background-color: rgb(211, 211, 211);
+        width: 180px;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+.props{
+    display: flex;
+    background-color:  rgb(247, 247, 241);
+}
+.proposal{
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.proposal input{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
+    height: max-content;
+    background-color: rgb(6, 6, 4);
+    font-family: "Concert One", sans-serif;
+    color: white;
+    
+}
+.proposal input:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.prop-pic img{
+    height: 200px;
+    width: 300px;
+    margin-top: 15px;
+    position: relative;
+    left: 500px;
+    border-radius: 20%;
+   
+}
+
+.case-study{
+    background-color: azure;
+    margin: 20px 15px;
+    padding: 20px;
+    display: flex;
+    
+}
+.case-study h2{
+    width: 10%;
+    background-color: greenyellow;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    column-count: 3;
+    column-gap: 40px;
+    height: 200px;
+    padding: 20px;
+    text-wrap: wrap;
+    margin: 15px;
+    border-radius: 10px;
+
+}
+footer p{
+    line-height: 25px;
+    word-spacing: 5px;
+    
+}
+footer a{
+    color: lightgreen;
+    text-decoration: none;
+
+}
+footer a:hover{
+    color: orange;
+    
+}

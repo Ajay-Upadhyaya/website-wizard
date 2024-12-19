@@ -1,0 +1,54 @@
+#parent{
+    border: 2px solid;
+    height: 99px;
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: black;
+    color: white;
+}
+.box{
+    width: 33.33%;
+    height: 100%;
+    
+    
+}
+.box h2{
+    margin: 33px;
+    padding-left: 45px;
+
+}
+.box ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 33px;
+}
+.box ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+
+}
+.box ul li a:hover{
+    color: orange;
+}
+
+
+.box button{
+    margin-left: 170px;
+    margin-top: 25px;
+    width: 150px;
+    background-color: rgb(8, 181, 249);
+    color: white;
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box button:hover{
+    cursor: pointer;
+    background-color: orange;
+
+}
+
+
